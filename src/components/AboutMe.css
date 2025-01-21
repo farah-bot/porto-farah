@@ -1,0 +1,99 @@
+.aboutme-container {
+  font-family: Arial, sans-serif;
+  margin: 20px 71px;
+  background-color: #f9fafb;
+  color: #2d3748;
+}
+
+.aboutme-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.aboutme-header h1 {
+  font-size: 40px;
+  color: #0e22d1;
+  margin-bottom: 15px;
+}
+
+.contact-info {
+  font-size: 16px;
+  color: #4a5568;
+  margin-bottom: 30px;
+}
+
+.contact-info a {
+  color: #0e22d1;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+.summary,
+.education {
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 28px;
+  color: #0e22d1;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #4a5568;
+}
+
+strong {
+  font-weight: bold;
+  color: #2d3748;
+}
+
+/* New Styles */
+.section {
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+}
+
+.section-title {
+  font-size: 24px;
+  color: #0e22d1;
+  margin-bottom: 10px;
+}
+
+.section-content {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #4a5568;
+}
+
+.section-footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 16px;
+  color: #4a5568;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .aboutme-header h1 {
+    font-size: 32px;
+  }
+
+  .summary,
+  .education {
+    padding: 0 10px;
+  }
+
+  .contact-info a {
+    font-size: 14px;
+  }
+}

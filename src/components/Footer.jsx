@@ -5,7 +5,7 @@ function Footer() {
   return (
     <div className="footer-container">
       <div className="footer-header">
-        <div className="footer-title">Lets Connect there</div>
+        <div className="footer-title">Lets Connect</div>
         <div className="footer-hire">
           <div>Hire me</div>
           <img
@@ -22,6 +22,30 @@ function Footer() {
       <div className="footer-content">
         <div className="footer-section about">
           <div className="social-icons">
+            <a
+              href="https://www.instagram.com/yourusername"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="social-icon"
+            >
+              <i className="fa fa-instagram"></i> {/* Instagram Icon */}
+            </a>
+            <a
+              href="https://www.linkedin.com/in/yourusername"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="social-icon"
+            >
+              <i className="fa fa-linkedin"></i> {/* LinkedIn Icon */}
+            </a>
+            <a
+              href="https://github.com/yourusername"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="social-icon"
+            >
+              <i className="fa fa-github"></i> {/* GitHub Icon */}
+            </a>
           </div>
           <div className="about-description">
             lorem ipsum blalalalalalaalalalala

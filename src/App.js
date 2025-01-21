@@ -1,11 +1,12 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
-import Resume from "./pages/Resume";
+import Resume from "./pages/AboutMe";
 import Projects from "./pages/Projects";
 import Experience from "./pages/Experience";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 function App() {
   return (
