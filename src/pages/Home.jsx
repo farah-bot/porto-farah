@@ -69,7 +69,7 @@ const Home = () => {
       </section>
 
       {/* Experience Section */}
-      <section className="experience-section">
+      {/* <section className="experience-section">
         <h2>My Experience</h2>
         <div className="experience-container">
           {experiences.map((exp, index) => (
@@ -79,18 +79,20 @@ const Home = () => {
             </div>
           ))}
         </div>
-      </section>
+      </section> */}
 {/* Portfolio Section */}
 <section className="portfolio-section">
-  <h2>Let’s have a look at my Portfolio</h2>
-  <Link to="/projects" className="see-all-link">
-    See All Projects
-  </Link>
+  <div className="portfolio-content">
+          <h2>Let’s have a look at my Portfolio</h2>
+    <Link to="/projects" className="see-all-link">
+      See All
+    </Link>
+  </div>
 
   <div className="portfolio-cards">
     <div className="portfolio-card">
       <img src="/path/to/project1.jpg" alt="Project 1" />
-      <h3>Project Title 1</h3>
+      <h3>BajetBijak</h3>
       <p>Brief description of Project 1.</p>
     </div>
     <div className="portfolio-card">
