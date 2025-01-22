@@ -1,38 +1,3 @@
-@font-face {
-  font-family: 'Lufga';
-  src: url('./fonts/Lufga-Regular.ttf') format('truetype');
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Lufga';
-  src: url('./fonts/Lufga-Light.ttf') format('truetype');
-  font-weight: 300;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Lufga';
-  src: url('./fonts/Lufga-Medium.ttf') format('truetype');
-  font-weight: 500;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Lufga';
-  src: url('./fonts/Lufga-Semibold.ttf') format('truetype');
-  font-weight: 600;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Lufga';
-  src: url('./fonts/Lufga-Bold.ttf') format('truetype');
-  font-weight: 700;
-  font-style: normal;
-}
-
 body {
   font-family: 'Lufga', sans-serif;
   padding-top: 80px;
