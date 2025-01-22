@@ -5,7 +5,7 @@ const AboutMe = () => {
   return (
     <div className="aboutme-container">
       <div className="aboutme-header">
-        <h1>About Me</h1>
+        <h1 className="hello-heading">About Me</h1>
         <p>Here’s a detailed look at my background, education, projects, experience, and skills.</p>
       </div>
 

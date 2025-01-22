@@ -6,7 +6,6 @@ import Projects from "./pages/Projects";
 import Experience from "./pages/Experience";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
-import '@fortawesome/fontawesome-free/css/all.min.css';
 
 function App() {
   return (

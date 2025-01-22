@@ -7,14 +7,14 @@
 
 .aboutme-header {
   text-align: center;
-  margin-bottom: 40px;
+  margin: 40px 40px;
 }
 
-.aboutme-header h1 {
+/* .aboutme-header h1 {
   font-size: 40px;
   color: #0e22d1;
   margin-bottom: 15px;
-}
+} */
 
 .contact-info {
   font-size: 16px;

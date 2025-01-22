@@ -1,3 +1,4 @@
+/* Wrapper for Projects */
 .projects-wrapper {
   text-align: center;
   margin: 40px 20px;
@@ -22,6 +23,8 @@
   padding: 0; /* Mengurangi padding untuk memberi lebih banyak ruang pada gambar */
   text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  animation: fadeInUp 0.5s ease-out forwards; /* Apply the animation */
+  opacity: 0; /* Initially invisible */
 }
 
 /* Gambar pada Project Card */
@@ -46,14 +49,14 @@
   color: #333;
 }
 
-/* Project Description */
+
 .project-card p {
   color: #666;
   font-size: 1rem;
   margin: 10px 0 0;
 }
 
-/* Links in the Project Card */
+
 .project-card a {
   text-decoration: none;
   color: #007bff;
@@ -64,3 +67,11 @@
   text-decoration: underline;
   color: #0056b3;
 }
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+

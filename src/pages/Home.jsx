@@ -4,67 +4,108 @@ import ServiceCard from '../components/ServiceCard';
 import '../styles/Home.css';
 
 const Home = () => {
+  const services = [
+    {
+      title: 'Web Development',
+      imageSrc: 'assets/images/web.png',
+    },
+    {
+      title: 'UI/UX Design',
+      imageSrc: 'assets/images/uiux.png',
+    },
+    {
+      title: 'Cloud Computing',
+      imageSrc: 'assets/images/cc.png',
+    },
+        {
+      title: 'Graphic Design',
+      imageSrc: 'assets/images/gd.png',
+    },
+  ];
+
+  const experiences = [
+    {
+      title: 'Frontend Developer',
+      description: 'Developed responsive and dynamic user interfaces for web applications.',
+    },
+    {
+      title: 'Backend Developer',
+      description: 'Built scalable server-side applications and RESTful APIs.',
+    },
+    {
+      title: 'DevOps Engineer',
+      description: 'Managed cloud infrastructure and automated deployment pipelines.',
+    },
+  ];
+
   return (
     <>
-      <div className="hello-section">
-        <img src="assets/images/farah.png" alt="Farah" className="hello-image" />
+      {/* Hero Section */}
+      <header className="hello-section">
+        <img src="assets/images/farah.png" alt="Farah's Profile" className="hello-image" />
         <h1 className="hello-heading">
           I'm <span className="highlight">Farah</span>,
         </h1>
-        <h1 className="hello-heading-it">
-          IT Enthusiast
-        </h1>
-        {/* <p>lorem ipsum blalalalalalaalalalala</p> */}
-      </div>
+        <h1 className="hello-heading-it">IT Enthusiast</h1>
+      </header>
 
-      <div className="service-cards">
+      {/* Services Section */}
+      <section className="service-cards">
         <div className="service-cards-header">
           <h2>My Services</h2>
-          <p>lorem ipsum blalalalalalaalalalala</p>
+          <p>
+            I offer a wide range of services, including crafting dynamic websites, designing intuitive user interfaces, creating compelling graphic designs, and implementing efficient cloud-based solutions tailored to meet diverse needs.
+          </p>
         </div>
         <div className="service-card-container">
-          <ServiceCard
-            title="Web Development"
-            imageSrc="assets/images/farah.png"
-            iconSrc="assets/icons/service-bg.png"
-          />
-          <ServiceCard
-            title="App Development"
-            imageSrc="assets/images/app-development.jpg"
-            iconSrc="assets/icons/app-icon.png"
-          />
-          <ServiceCard
-            title="App Development"
-            imageSrc="assets/images/app-development.jpg"
-            iconSrc="assets/icons/app-icon.png"
-          />
-          <ServiceCard
-            title="App Development"
-            imageSrc="assets/images/app-development.jpg"
-            iconSrc="assets/icons/app-icon.png"
-          />
+          {services.map((service, index) => (
+            <ServiceCard
+              key={index}
+              title={service.title}
+              imageSrc={service.imageSrc}
+            />
+          ))}
         </div>
-      </div>
+      </section>
 
-      <div className="experience-section">
+      {/* Experience Section */}
+      <section className="experience-section">
         <h2>My Experience</h2>
         <div className="experience-container">
-          <div className="experience-card">
-            <h3>Frontend Developer</h3>
-            <p>lorem ipsum blalalalalalaalalalala</p>
-          </div>
-          <div className="experience-card">
-            <h3>Backend Developer</h3>
-            <p>lorem ipsum blalalalalalaalalalala</p>
-          </div>
+          {experiences.map((exp, index) => (
+            <div className="experience-card" key={index}>
+              <h3>{exp.title}</h3>
+              <p>{exp.description}</p>
+            </div>
+          ))}
         </div>
-      </div>
+      </section>
+{/* Portfolio Section */}
+<section className="portfolio-section">
+  <h2>Let’s have a look at my Portfolio</h2>
+  <Link to="/projects" className="see-all-link">
+    See All Projects
+  </Link>
 
-      <div className="section">
-        <h2>Projects</h2>
-        <p>lorem ipsum blalalalalalaalalalala</p>
-        <Link to="/projects" className="see-all-link">See All</Link>
-      </div>
+  <div className="portfolio-cards">
+    <div className="portfolio-card">
+      <img src="/path/to/project1.jpg" alt="Project 1" />
+      <h3>Project Title 1</h3>
+      <p>Brief description of Project 1.</p>
+    </div>
+    <div className="portfolio-card">
+      <img src="/path/to/project2.jpg" alt="Project 2" />
+      <h3>Project Title 2</h3>
+      <p>Brief description of Project 2.</p>
+    </div>
+    <div className="portfolio-card">
+      <img src="/path/to/project3.jpg" alt="Project 3" />
+      <h3>Project Title 3</h3>
+      <p>Brief description of Project 3.</p>
+    </div>
+  </div>
+</section>
+
     </>
   );
 };

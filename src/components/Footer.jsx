@@ -1,11 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Footer.css";
 
 function Footer() {
   return (
     <div className="footer-container">
       <div className="footer-header">
-        <div className="footer-title">Lets Connect</div>
+        <div className="footer-title">Let's Connect</div>
         <div className="footer-hire">
           <div>Hire me</div>
           <img
@@ -21,47 +22,26 @@ function Footer() {
       />
       <div className="footer-content">
         <div className="footer-section about">
-          <div className="social-icons">
-            <a
-              href="https://www.instagram.com/yourusername"
-              target="_blank"
-              rel="noreferrer noopener"
-              className="social-icon"
-            >
-              <i className="fa fa-instagram"></i> {/* Instagram Icon */}
-            </a>
-            <a
-              href="https://www.linkedin.com/in/yourusername"
-              target="_blank"
-              rel="noreferrer noopener"
-              className="social-icon"
-            >
-              <i className="fa fa-linkedin"></i> {/* LinkedIn Icon */}
-            </a>
-            <a
-              href="https://github.com/yourusername"
-              target="_blank"
-              rel="noreferrer noopener"
-              className="social-icon"
-            >
-              <i className="fa fa-github"></i> {/* GitHub Icon */}
-            </a>
-          </div>
           <div className="about-description">
-            lorem ipsum blalalalalalaalalalala
-          </div>
-          <div className="social-media-links">
+            I'm Farah, an IT enthusiast with a passion for web development, design, IOT and cloud computing.
           </div>
         </div>
 
         <div className="footer-section">
           <div className="section-title">Navigation</div>
           <ul className="navigation-links">
-            <li>Home</li>
-            <li>About Us</li>
-            <li>Service</li>
-            <li>Resume</li>
-            <li>Project</li>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/resume">Resume</Link>
+            </li>
+            <li>
+              <Link to="/projects">Projects</Link>
+            </li>
+            <li>
+              <Link to="/experience">Experience</Link>
+            </li>
           </ul>
         </div>
 
@@ -91,7 +71,32 @@ function Footer() {
       </div>
       <div className="footer-bottom">
         <div>Copyright© 2024 Farah. All Rights Reserved.</div>
-        <div>User Terms & Conditions | Privacy Policy</div>
+                  <div className="social-icons">
+            <a
+              href="https://www.instagram.com/farahfairuzzzz"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="social-icon"
+            >
+              <i className="fa-brands fa-instagram"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/farah-fairuz"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="social-icon"
+            >
+              <i className="fa-brands fa-linkedin"></i>
+            </a>
+            <a
+              href="https://github.com/farah-bot"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="social-icon"
+            >
+              <i className="fa-brands fa-github"></i>
+            </a>
+          </div>
       </div>
     </div>
   );
