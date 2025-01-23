@@ -7,19 +7,19 @@ const Home = () => {
   const services = [
     {
       title: 'Web Development',
-      imageSrc: 'assets/images/web.png',
+      imageSrc: './porto-farah/assets/images/web.png',
     },
     {
       title: 'UI/UX Design',
-      imageSrc: 'assets/images/uiux.png',
+      imageSrc: './porto-farah/assets/images/uiux.png',
     },
     {
       title: 'Cloud Computing',
-      imageSrc: 'assets/images/cc.png',
+      imageSrc: './porto-farah/assets/images/cc.png',
     },
         {
       title: 'Graphic Design',
-      imageSrc: 'assets/images/gd.png',
+      imageSrc: './porto-farah/assets/images/gd.png',
     },
   ];
 
@@ -42,7 +42,7 @@ const Home = () => {
     <>
       {/* Hero Section */}
       <header className="hello-section">
-        <img src="assets/images/farah.png" alt="Farah's Profile" className="hello-image" />
+        <img src="./porto-farah/assets/images/farah.png" alt="Farah's Profile" className="hello-image" />
         <h1 className="hello-heading">
           I'm <span className="highlight">Farah</span>,
         </h1>
@@ -53,9 +53,7 @@ const Home = () => {
       <section className="service-cards">
         <div className="service-cards-header">
           <h2>My Services</h2>
-          <p>
-            I offer a wide range of services, including crafting dynamic websites, designing intuitive user interfaces, creating compelling graphic designs, and implementing efficient cloud-based solutions tailored to meet diverse needs.
-          </p>
+          <p>I provide services in web development, UI design, graphic desi</p>
         </div>
         <div className="service-card-container">
           {services.map((service, index) => (
