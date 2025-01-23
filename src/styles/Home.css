@@ -397,7 +397,6 @@ p {
   color: var(--text-secondary);
 }
 
-
 @media (max-width: 768px) {
     .hello-heading {
     font-size: 48px;

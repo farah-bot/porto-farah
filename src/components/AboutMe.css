@@ -10,7 +10,7 @@
 
 .aboutme-header {
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .aboutme-header h1 {
@@ -41,18 +41,24 @@
   text-decoration: underline;
 }
 
+h2 {
+  font-size: 28px;
+  color: #0e22d1;
+  margin-top: 15px;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #2d3748;
+}
+
 .section {
   background-color: #ffffff;
   border-radius: 8px;
   padding: 20px;
   margin-bottom: 30px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.section h3 {
-  font-size: 28px;
-  color: #0e22d1;
-  margin-bottom: 15px;
 }
 
 .section p {
@@ -64,22 +70,6 @@
 .section strong {
   font-weight: bold;
   color: #2d3748;
-}
-
-.skills h2 {
-  font-size: 20px;
-  color: #0e22d1;
-  margin-top: 20px;
-}
-
-.skills p {
-  font-size: 16px;
-  color: #4a5568;
-  margin-bottom: 10px;
-}
-
-.skills {
-  margin-bottom: 40px;
 }
 
 
@@ -101,15 +91,15 @@
     font-size: 14px;
   }
 
-  .section h2 {
+  h2 {
     font-size: 24px;
   }
 
-  .section p {
+  p {
     font-size: 14px;
   }
 
-  .skills h3 {
-    font-size: 18px;
+  h3 {
+    font-size: 20px;
   }
 }

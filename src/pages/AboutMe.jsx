@@ -6,7 +6,6 @@ const AboutMe = () => {
     <div className="aboutme-container">
       <div className="aboutme-header">
         <h1>About Me</h1>
-        <p>Here’s a detailed look at my background, education, projects, experience, and skills.</p>
       </div>
 
       <div className="contact-info">
@@ -32,7 +31,7 @@ const AboutMe = () => {
         <h2>Education</h2>
         <p>
           <strong>University of Jember</strong> - Jember <br />
-          Bachelor's in Information Technology | IPK: 3.86 / 4.00 <br />
+          Bachelor's in Information Technology | IPK: 3.89 / 4.00 <br />
           2022 - Present <br />
           Recipient of Generasi Baru Indonesia (GenBI) Scholarship 2024.
         </p>

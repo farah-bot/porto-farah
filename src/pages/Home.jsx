@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import ServiceCard from '../components/ServiceCard';
+import ProjectCard from '../components/ProjectCard';
+import projects from '../data/projects';
 import '../styles/Home.css';
 
 const Home = () => {
@@ -37,6 +39,8 @@ const Home = () => {
       description: 'Managed cloud infrastructure and automated deployment pipelines.',
     },
   ];
+
+  const featuredProjects = projects.slice(0, 2);
 
   return (
     <>
@@ -85,26 +89,14 @@ const Home = () => {
     <Link to="/projects" className="see-all-link">
       See All
     </Link>
-  </div>
-
+        </div>
+        
   <div className="portfolio-cards">
-    <div className="portfolio-card">
-      <img src="/path/to/project1.jpg" alt="Project 1" />
-      <h3>BajetBijak</h3>
-      <p>Brief description of Project 1.</p>
-    </div>
-    <div className="portfolio-card">
-      <img src="/path/to/project2.jpg" alt="Project 2" />
-      <h3>Project Title 2</h3>
-      <p>Brief description of Project 2.</p>
-    </div>
-    <div className="portfolio-card">
-      <img src="/path/to/project3.jpg" alt="Project 3" />
-      <h3>Project Title 3</h3>
-      <p>Brief description of Project 3.</p>
-    </div>
+    {featuredProjects.map((project) => (
+      <ProjectCard key={project.id} project={project} />
+    ))}
   </div>
-</section>
+      </section>
 
     </>
   );
