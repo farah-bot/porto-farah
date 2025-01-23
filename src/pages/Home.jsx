@@ -7,19 +7,19 @@ const Home = () => {
   const services = [
     {
       title: 'Web Development',
-      imageSrc: './assets/images/web.png',
+      imageSrc: './porto-farah/assets/images/web.png',
     },
     {
       title: 'UI/UX Design',
-      imageSrc: './assets/images/uiux.png',
+      imageSrc: './porto-farah/assets/images/uiux.png',
     },
     {
       title: 'Cloud Computing',
-      imageSrc: './assets/images/cc.png',
+      imageSrc: './porto-farah/assets/images/cc.png',
     },
         {
       title: 'Graphic Design',
-      imageSrc: './assets/images/gd.png',
+      imageSrc: './porto-farah/assets/images/gd.png',
     },
   ];
 
