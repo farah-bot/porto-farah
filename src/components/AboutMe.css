@@ -72,6 +72,19 @@ h3 {
   color: #2d3748;
 }
 
+.project,
+.work-experience,
+.certification,
+.awards {
+  margin-bottom: 20px;
+}
+
+.project h3,
+.work-experience h3,
+.certification p,
+.awards p {
+  color: #0e22d1;
+}
 
 @media (max-width: 768px) {
   .aboutme-container {
@@ -97,9 +110,5 @@ h3 {
 
   p {
     font-size: 14px;
-  }
-
-  h3 {
-    font-size: 20px;
   }
 }
