@@ -4,12 +4,17 @@ import '../styles/Project.css';
 
 const ProjectCard = ({ project }) => {
   return (
-    <div className="project-card">
+    <div
+      className="project-card"
+      style={{ backgroundImage: `url(${project.image})` }}
+    >
       <Link to={`/projects/${project.id}`}>
-        <img src={project.image} alt={project.name} className="project-card-img" />
         <h3>{project.name}</h3>
+        <div className="project-card-hover">
+          <h3>{project.name}</h3>
+          <p>{project.description}</p>
+        </div>
       </Link>
-      <p>{project.description}</p>
     </div>
   );
 };

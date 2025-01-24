@@ -358,10 +358,10 @@ p {
 
 .portfolio-cards {
   display: flex;
-  justify-content: center;
-  gap: 16px;
+  justify-content: left;
+  gap: 24px;
   flex-wrap: wrap;
-  margin-top: 20px;
+  padding: 30px 71px 0px 71px;
 }
 
 .portfolio-card {
@@ -369,8 +369,6 @@ p {
   border-radius: var(--border-radius);
   box-shadow: var(--box-shadow);
   padding: 16px;
-  width: 100%;
-  max-width: 300px;
   text-align: left;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -383,7 +381,6 @@ p {
 .portfolio-card img {
   width: 100%;
   height: auto;
-  border-radius: var(--border-radius);
 }
 
 .portfolio-card h3 {
