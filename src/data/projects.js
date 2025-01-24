@@ -17,7 +17,7 @@ description: 'Designed the user interface and experience for BajetBijak, a finan
     id: 3,
     name: 'IOT Aquascape',
     description: 'Collaborated with a faculty advisor to design an automated aquarium system, integrating sensors and actuators. Features remote control and real-time data via a mobile app for optimal aquatic conditions.',
-    image: images['farah.png'],
+    image: images['iot.jpg'],
   },
 
 ];
