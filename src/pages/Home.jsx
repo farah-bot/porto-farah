@@ -3,27 +3,31 @@ import { Link } from 'react-router-dom';
 import ServiceCard from '../components/ServiceCard';
 import ProjectCard from '../components/ProjectCard';
 import projects from '../data/projects';
+import images from '../utils/importImages';
 import '../styles/Home.css';
 
+
+
+
 const Home = () => {
-  const services = [
-    {
-      title: 'Web Development',
-      imageSrc: './porto-farah/assets/images/web.png',
-    },
-    {
-      title: 'UI/UX Design',
-      imageSrc: './porto-farah/assets/images/uiux.png',
-    },
-    {
-      title: 'Cloud Computing',
-      imageSrc: './porto-farah/assets/images/cc.png',
-    },
-        {
-      title: 'Graphic Design',
-      imageSrc: './porto-farah/assets/images/gd.png',
-    },
-  ];
+const services = [
+  {
+    title: 'Web Development',
+    imageSrc: images['web.png'],
+  },
+  {
+    title: 'UI/UX Design',
+    imageSrc: images['uiux.png'],
+  },
+  {
+    title: 'Cloud Computing',
+    imageSrc: images['cc.png'],
+  },
+  {
+    title: 'Graphic Design',
+    imageSrc: images['gd.png'],
+  },
+];
 
   const experiences = [
     {
@@ -46,7 +50,7 @@ const Home = () => {
     <>
       {/* Hero Section */}
       <header className="hello-section">
-        <img src="./porto-farah/assets/images/farah.png" alt="Farah's Profile" className="hello-image" />
+        <img src={images['farah.png']} alt="Farah's Profile" className="hello-image" />
         <h1 className="hello-heading">
           I'm <span className="highlight">Farah</span>,
         </h1>
