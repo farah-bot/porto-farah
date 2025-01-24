@@ -1,21 +1,26 @@
 {
   "files": {
-    "main.css": "/porto-farah/static/css/main.b0dec516.css",
-    "main.js": "/porto-farah/static/js/main.5860f40e.js",
-    "static/media/hover1.png": "/porto-farah/static/media/hover1.b13655f867519fd7fbad.png",
-    "static/media/hover2.png": "/porto-farah/static/media/hover2.903bd5cee5a889cf511a.png",
+    "main.css": "/porto-farah/static/css/main.9b8c44cf.css",
+    "main.js": "/porto-farah/static/js/main.09643357.js",
+    "static/media/hover1.png": "/porto-farah/static/media/hover1.b93f7497ae8c00b08b9d.png",
+    "static/media/hover2.png": "/porto-farah/static/media/hover2.b93f7497ae8c00b08b9d.png",
+    "static/media/gd.png": "/porto-farah/static/media/gd.3abe6d1dfdd2804711e5.png",
+    "static/media/farah.png": "/porto-farah/static/media/farah.f52dbcb2a1ccda462dbf.png",
     "static/media/service-bg.jpeg": "/porto-farah/static/media/service-bg.bb20a594e885205e1753.jpeg",
     "static/media/Lufga-Light.ttf": "/porto-farah/static/media/Lufga-Light.6ef28164cd0173eb2011.ttf",
     "static/media/Lufga-Bold.ttf": "/porto-farah/static/media/Lufga-Bold.0b819e404b04598770c3.ttf",
     "static/media/Lufga-Medium.ttf": "/porto-farah/static/media/Lufga-Medium.8a6e8c322b3081e46655.ttf",
     "static/media/Lufga-Semibold.ttf": "/porto-farah/static/media/Lufga-Semibold.3c7b91dccc58aeffca0e.ttf",
     "static/media/Lufga-Regular.ttf": "/porto-farah/static/media/Lufga-Regular.4f0d570c75aa41c936e1.ttf",
+    "static/media/uiux.png": "/porto-farah/static/media/uiux.ae4e5271397927bd83b4.png",
+    "static/media/web.png": "/porto-farah/static/media/web.9bff4c20b517c610a689.png",
+    "static/media/cc.png": "/porto-farah/static/media/cc.6011c61bf30e6735b772.png",
     "index.html": "/porto-farah/index.html",
-    "main.b0dec516.css.map": "/porto-farah/static/css/main.b0dec516.css.map",
-    "main.5860f40e.js.map": "/porto-farah/static/js/main.5860f40e.js.map"
+    "main.9b8c44cf.css.map": "/porto-farah/static/css/main.9b8c44cf.css.map",
+    "main.09643357.js.map": "/porto-farah/static/js/main.09643357.js.map"
   },
   "entrypoints": [
-    "static/css/main.b0dec516.css",
-    "static/js/main.5860f40e.js"
+    "static/css/main.9b8c44cf.css",
+    "static/js/main.09643357.js"
   ]
 }
