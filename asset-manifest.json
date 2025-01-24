@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/porto-farah/static/css/main.db4bdfbe.css",
-    "main.js": "/porto-farah/static/js/main.14d03814.js",
+    "main.css": "/porto-farah/static/css/main.089d33b4.css",
+    "main.js": "/porto-farah/static/js/main.31a9d59d.js",
     "static/media/hover1.png": "/porto-farah/static/media/hover1.b93f7497ae8c00b08b9d.png",
     "static/media/hover2.png": "/porto-farah/static/media/hover2.b93f7497ae8c00b08b9d.png",
     "static/media/gd.png": "/porto-farah/static/media/gd.3abe6d1dfdd2804711e5.png",
     "static/media/farah.png": "/porto-farah/static/media/farah.f52dbcb2a1ccda462dbf.png",
+    "static/media/iot.jpg": "/porto-farah/static/media/iot.6165f873112b38c8ce5e.jpg",
     "static/media/service-bg.jpeg": "/porto-farah/static/media/service-bg.bb20a594e885205e1753.jpeg",
     "static/media/Lufga-Light.ttf": "/porto-farah/static/media/Lufga-Light.6ef28164cd0173eb2011.ttf",
     "static/media/Lufga-Bold.ttf": "/porto-farah/static/media/Lufga-Bold.0b819e404b04598770c3.ttf",
@@ -16,11 +17,11 @@
     "static/media/web.png": "/porto-farah/static/media/web.9bff4c20b517c610a689.png",
     "static/media/cc.png": "/porto-farah/static/media/cc.6011c61bf30e6735b772.png",
     "index.html": "/porto-farah/index.html",
-    "main.db4bdfbe.css.map": "/porto-farah/static/css/main.db4bdfbe.css.map",
-    "main.14d03814.js.map": "/porto-farah/static/js/main.14d03814.js.map"
+    "main.089d33b4.css.map": "/porto-farah/static/css/main.089d33b4.css.map",
+    "main.31a9d59d.js.map": "/porto-farah/static/js/main.31a9d59d.js.map"
   },
   "entrypoints": [
-    "static/css/main.db4bdfbe.css",
-    "static/js/main.14d03814.js"
+    "static/css/main.089d33b4.css",
+    "static/js/main.31a9d59d.js"
   ]
 }
