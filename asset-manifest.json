@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/porto-farah/static/css/main.9b8c44cf.css",
-    "main.js": "/porto-farah/static/js/main.09643357.js",
+    "main.js": "/porto-farah/static/js/main.58c5a0a5.js",
     "static/media/hover1.png": "/porto-farah/static/media/hover1.b93f7497ae8c00b08b9d.png",
     "static/media/hover2.png": "/porto-farah/static/media/hover2.b93f7497ae8c00b08b9d.png",
     "static/media/gd.png": "/porto-farah/static/media/gd.3abe6d1dfdd2804711e5.png",
@@ -17,10 +17,10 @@
     "static/media/cc.png": "/porto-farah/static/media/cc.6011c61bf30e6735b772.png",
     "index.html": "/porto-farah/index.html",
     "main.9b8c44cf.css.map": "/porto-farah/static/css/main.9b8c44cf.css.map",
-    "main.09643357.js.map": "/porto-farah/static/js/main.09643357.js.map"
+    "main.58c5a0a5.js.map": "/porto-farah/static/js/main.58c5a0a5.js.map"
   },
   "entrypoints": [
     "static/css/main.9b8c44cf.css",
-    "static/js/main.09643357.js"
+    "static/js/main.58c5a0a5.js"
   ]
 }
