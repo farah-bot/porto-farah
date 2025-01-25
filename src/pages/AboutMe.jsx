@@ -62,7 +62,7 @@ const AboutMe = () => {
         <p>Creativity, Time Management, Problem Solving, Communication, Team Collaboration.</p>
 
         <h3>Software Skills:</h3>
-        <p>Linux, Python, VS Code, Adobe Illustrator, Ibis Paint, Figma, Trello, Maze, Arduino IDE, MySQL, Postman, Burp Suite, Docker, Git.</p>
+        <p>Linux, Python, VS Code, Adobe Illustrator, Adobe Photoshop, Ibis Paint, Figma, Trello, Maze, Arduino IDE, MySQL, Postman, Burp Suite, Docker, Git.</p>
       </div>
     </div>
   );
