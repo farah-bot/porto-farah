@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/porto-farah/static/css/main.089d33b4.css",
-    "main.js": "/porto-farah/static/js/main.31a9d59d.js",
-    "static/media/hover1.png": "/porto-farah/static/media/hover1.b93f7497ae8c00b08b9d.png",
-    "static/media/hover2.png": "/porto-farah/static/media/hover2.b93f7497ae8c00b08b9d.png",
+    "main.js": "/porto-farah/static/js/main.cfdf7997.js",
+    "static/media/kribocu.png": "/porto-farah/static/media/kribocu.1f5ea655208e761b1ae1.png",
+    "static/media/hover1.png": "/porto-farah/static/media/hover1.b13655f867519fd7fbad.png",
+    "static/media/hover2.png": "/porto-farah/static/media/hover2.903bd5cee5a889cf511a.png",
     "static/media/gd.png": "/porto-farah/static/media/gd.3abe6d1dfdd2804711e5.png",
     "static/media/farah.png": "/porto-farah/static/media/farah.f52dbcb2a1ccda462dbf.png",
     "static/media/iot.jpg": "/porto-farah/static/media/iot.6165f873112b38c8ce5e.jpg",
@@ -18,10 +19,10 @@
     "static/media/cc.png": "/porto-farah/static/media/cc.6011c61bf30e6735b772.png",
     "index.html": "/porto-farah/index.html",
     "main.089d33b4.css.map": "/porto-farah/static/css/main.089d33b4.css.map",
-    "main.31a9d59d.js.map": "/porto-farah/static/js/main.31a9d59d.js.map"
+    "main.cfdf7997.js.map": "/porto-farah/static/js/main.cfdf7997.js.map"
   },
   "entrypoints": [
     "static/css/main.089d33b4.css",
-    "static/js/main.31a9d59d.js"
+    "static/js/main.cfdf7997.js"
   ]
 }
