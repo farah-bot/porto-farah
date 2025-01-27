@@ -19,6 +19,14 @@ description: 'Designed the user interface and experience for BajetBijak, a finan
     description: 'Collaborated with a faculty advisor to design an automated aquarium system, integrating sensors and actuators. Features remote control and real-time data via a mobile app for optimal aquatic conditions.',
     image: images['iot.jpg'],
   },
+    {
+    id: 4,
+    name: 'Kribocu Visual Design',
+    description: 'Designed logos, social media templates, and promo materials for Kribocu. Ensured brand consistency and creativity to enhance visibility and align with project goals in an entrepreneurship course.',
+    image: images['kribocu.png'],
+  },
+
+
 
 ];
 
