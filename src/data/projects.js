@@ -25,6 +25,12 @@ description: 'Designed the user interface and experience for BajetBijak, a finan
     description: 'Designed logos, social media templates, and promo materials for Kribocu. Ensured brand consistency and creativity to enhance visibility and align with project goals in an entrepreneurship course.',
     image: images['kribocu.png'],
   },
+    {
+    id: 5,
+    name: 'Personal Artwork (@deyjapoo)',
+    description: 'Created and shared digital illustrations on Instagram under the account @deyjapoo. Used ibisPaint to produce high-quality artwork, exploring various styles and concepts to refine digital drawing skills.',
+    image: images['art.png'],
+  },
 
 
 
